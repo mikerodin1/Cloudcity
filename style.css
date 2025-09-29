@@ -1,0 +1,13 @@
+/* Global Styles for Cloud City Games */
+body { margin: 0; font-family: 'Inter', sans-serif; background: #f9f9f9; color: #333; }
+header { background: #4a4edb; color: white; padding: 1rem; text-align: center; }
+nav a { margin: 0 10px; text-decoration: none; color: white; font-weight: bold; }
+.hero { background: #ddd; text-align: center; padding: 4rem 1rem; }
+.category-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; }
+.category { background: white; border: 2px solid #4a4edb; border-radius: 10px; padding: 2rem; font-weight: bold; transition: 0.3s; text-align:center; }
+.category:hover { background: #4a4edb; color: white; cursor: pointer; }
+.product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; padding: 2rem 0; }
+.product-card { background: white; border: 1px solid #ddd; border-radius: 10px; padding: 1rem; text-align: center; transition: 0.3s; }
+.product-card:hover { transform: translateY(-5px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+.product-card img { max-width: 100%; border-radius: 8px; }
+footer { background: #222; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
